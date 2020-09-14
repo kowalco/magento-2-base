@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * Kowal
+ * Copyright (C) 2019 Kowal <kontakt@kowal.co>
+ *
+ * @category Kowal
+ * @package Kowal_Base
+ * @copyright Copyright (c) 2019 Mage Delight (https://kowal.store/)
+ * @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License,version 3 (GPL-3.0)
+ * @author Kowal <kontakt@kowal.co>
+ */ 
+ -->
+ <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+    	<css src="jquery/colorpicker/css/colorpicker.css" />
+    </head>
+</page>

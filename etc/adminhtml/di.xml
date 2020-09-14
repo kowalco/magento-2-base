@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * Kowal
+ * Copyright (C) 2019 Kowal <kontakt@kowal.co>
+ *
+ * @category Kowal
+ * @package Kowal_Base
+ * @copyright Copyright (c) 2019 Mage Delight (https://kowal.store/)
+ * @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License,version 3 (GPL-3.0)
+ * @author Kowal <kontakt@kowal.co>
+ */ 
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Backend\Model\View\Result\Page">
+        <plugin name="kowal_base_modify_setactivemenu" type="Kowal\Base\Plugin\Magento\Backend\Model\View\Result\Page" />
+    </type>
+
+<!--    <type name="Magento\Backend\Model\Menu\Item">-->
+<!--	    <plugin name="kowal_common_menu_item_newtab" type="Kowal\Base\Plugin\Magento\Backend\Model\Menu\Item" />-->
+<!--	</type>-->
+</config>

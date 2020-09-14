@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * Kowal
+ * Copyright (C) 2019 Kowal <kontakt@kowal.co>
+ *
+ * @category Kowal
+ * @package Kowal_Base
+ * @copyright Copyright (c) 2019 Mage Delight (https://kowal.store/)
+ * @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License,version 3 (GPL-3.0)
+ * @author Kowal <kontakt@kowal.co>
+ */ 
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Kowal_Base::kowal_base_root"
+            title="Kowal.co"
+            module="Kowal_Base"
+            sortOrder="45"
+            resource="Kowal_Base::root" />
+
+            <add id="Kowal_Base::kowal_modules"
+                title="Modules"
+                module="Kowal_Base"
+                sortOrder="10"
+                parent="Kowal_Base::kowal_base_root"
+                resource="Kowal_Base::kowal_modules" />
+
+    </menu>
+</config>
