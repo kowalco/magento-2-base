@@ -16,7 +16,7 @@
         <plugin name="kowal_base_modify_setactivemenu" type="Kowal\Base\Plugin\Magento\Backend\Model\View\Result\Page" />
     </type>
 
-<!--    <type name="Magento\Backend\Model\Menu\Item">-->
-<!--	    <plugin name="kowal_common_menu_item_newtab" type="Kowal\Base\Plugin\Magento\Backend\Model\Menu\Item" />-->
-<!--	</type>-->
+    <type name="Magento\Backend\Model\Menu\Item">
+	    <plugin name="kowal_common_menu_item_newtab" type="Kowal\Base\Plugin\Magento\Backend\Model\Menu\Item" />
+	</type>
 </config>
