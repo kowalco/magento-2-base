@@ -19,7 +19,7 @@ class Item
         $menuId = $subject->getId();
 
         if ($menuId == 'Kowal_Base::kowal_support') {
-            $result = 'httpa://kowal.store';
+            $result = 'https://kowal.store/wsparcie-magento';
         } elseif ($menuId == 'Kowal_Base::kowal_visitus') {
             $result = 'https://kowal.store';
         }

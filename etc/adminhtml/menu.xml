@@ -27,5 +27,27 @@
                 parent="Kowal_Base::kowal_base_root"
                 resource="Kowal_Base::kowal_modules" />
 
+        <add id="Kowal_Base::md_common"
+             title="Przydatne linki"
+             module="Kowal_Base"
+             sortOrder="500"
+             parent="Kowal_Base::kowal_base_root"
+             resource="Kowal_Base::kowal_common" />
+
+        <add id="Kowal_Base::kowal_support"
+             title="Wsparcie techniczne"
+             module="Kowal_Base"
+             sortOrder="50"
+             target="_blank"
+             parent="Magedelight_Base::kowal_common"
+             resource="Magedelight_Base::kowal_common" />
+
+        <add id="Kowal_Base::kowal_visitus"
+             title="O nas"
+             module="Kowal_Base"
+             sortOrder="100"
+             target="_blank"
+             parent="Kowal_Base::kowal_common"
+             resource="Kowal_Base::kowal_common" />
     </menu>
 </config>
