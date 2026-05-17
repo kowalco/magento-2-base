@@ -19,7 +19,7 @@ class Item
         $menuId = $subject->getId();
 
         if ($menuId == 'Kowal_Base::kowal_support') {
-            $result = 'https://kowal.store/wsparcie-magento';
+            $result = 'https://kowal.store/moduly-magento';
         } elseif ($menuId == 'Kowal_Base::kowal_faq') {
             $result = 'https://kowal.store/baza-wiedzy';
         } elseif ($menuId == 'Kowal_Base::kowal_visitus') {
