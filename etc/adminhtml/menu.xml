@@ -15,7 +15,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
         <add id="Kowal_Base::kowal_base_root"
-            title="Kowal.co"
+            title="kowal.store"
             module="Kowal_Base"
             sortOrder="45"
             resource="Kowal_Base::root" />
@@ -28,14 +28,14 @@
                 resource="Kowal_Base::kowal_modules" />
 
         <add id="Kowal_Base::kowal_common"
-             title="Przydatne linki"
+             title="Links"
              module="Kowal_Base"
              sortOrder="500"
              parent="Kowal_Base::kowal_base_root"
              resource="Kowal_Base::kowal_common" />
 
         <add id="Kowal_Base::kowal_support"
-             title="Wsparcie techniczne"
+             title="Magento Modules"
              module="Kowal_Base"
              sortOrder="50"
              target="_blank"
@@ -43,7 +43,7 @@
              resource="Kowal_Base::kowal_common" />
 
         <add id="Kowal_Base::kowal_faq"
-             title="FAQ"
+             title="Knowledge Base"
              module="Kowal_Base"
              sortOrder="100"
              target="_blank"
@@ -51,7 +51,7 @@
              resource="Kowal_Base::kowal_common" />
 
         <add id="Kowal_Base::kowal_visitus"
-             title="O nas"
+             title="KOWAL.STORE"
              module="Kowal_Base"
              sortOrder="200"
              target="_blank"
