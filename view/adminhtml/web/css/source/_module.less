@@ -1,9 +1,23 @@
 .admin__menu .item-kowal-base-root.parent.level-0 > a:before {
 	content: '';
-	background-image:url('@{baseDir}Kowal_Base/images/logo.svg');
+	background-image:url('@{baseDir}Kowal_Base/images/logo.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 25px;
 	background-position: center;
 	height: 25px;
+}
+
+.admin__menu .item-kowal-modules.level-1 > .submenu {
+	min-width: 48rem;
+}
+
+.admin__menu .item-kowal-modules.level-1 > .submenu > ul {
+	column-count: 2;
+	column-gap: 2rem;
+}
+
+.admin__menu .item-kowal-modules.level-1 > .submenu > ul > li {
+	break-inside: avoid;
+	page-break-inside: avoid;
 }
