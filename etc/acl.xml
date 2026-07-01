@@ -14,7 +14,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
     <acl>
         <resources>
-            <resource id="Magento_Backend::admin">
+            <resource id="Magento_Backend::admin" title="Admin">
                 <resource id="Kowal_Base::root" title="Kowal" sortOrder="51">
                     <resource id="Kowal_Base::kowal_modules" title="Modules" sortOrder="10" />
                     <resource id="Kowal_Base::kowal_common" title="Common" sortOrder="500" />
