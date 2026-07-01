@@ -20,9 +20,9 @@
                     <resource id="Kowal_Base::kowal_common" title="Common" sortOrder="500" />
                 </resource>
 
-                <resource id="Magento_Backend::stores">
-                    <resource id="Magento_Backend::stores_settings">
-                        <resource id="Magento_Config::config">
+                <resource id="Magento_Backend::stores" title="Stores">
+                    <resource id="Magento_Backend::stores_settings" title="Settings">
+                        <resource id="Magento_Config::config" title="Config">
                             <resource id="Kowal_Base::config_root" title="Kowal Configuration" sortOrder="51" />
                         </resource>
                     </resource>
